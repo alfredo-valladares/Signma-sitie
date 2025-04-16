@@ -1157,4 +1157,22 @@ img {
     }
   }
 
-  
+
+  .footer-logo {
+    flex: 2;
+    min-width: 300px;
+}
+
+.footer-logo img {
+    width: 200px; /* Aumenté el tamaño de 150px a 200px */
+    height: auto;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+/* Para hacerlo más grande en desktop */
+@media (min-width: 992px) {
+    .footer-logo img {
+        width: 250px; /* Tamaño aún más grande para desktop */
+    }
+}
